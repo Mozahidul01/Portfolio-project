@@ -1,0 +1,83 @@
+/*===== Basic Style =====*/
+
+html{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    height: 80vh;
+}
+
+/*===== Hero Section=====*/
+
+.top-section{
+    background-image: url(../image/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+
+/*===== Hero Section Content =====*/
+
+.content{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+h1{
+    font-size: 5rem;
+    font-weight: 600;   
+    line-height: 5.5rem;
+}
+
+.highlight{
+    color: #6a54a3;
+}
+
+h3{
+    font-size: 2rem;
+    color: #000000;
+}
+
+p{
+    font-size: 1.8rem;
+    color: #696969;
+}
+
+.button{
+    color: #ffffff;
+    background-image: linear-gradient(90deg, #753bd9, #5b5fde);
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0.8rem 2.6rem 0.8rem 2.6rem;
+    border-style: none;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+
+.button:hover{
+    background-image: linear-gradient(45deg, #db467b, #ff1d76); 
+}
+
+/*===== Hero Section Image =====*/
+
+.hero-image{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-top: 3%;
+}
+
+.hero-image img{
+    width: 100%;
+}
