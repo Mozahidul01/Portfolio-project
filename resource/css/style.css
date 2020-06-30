@@ -28,11 +28,16 @@ h1{
 h2{
     font-size: 4rem;
     font-weight: 600;   
-    line-height: 5.5rem;
 }
 
 
 h3{
+    font-size: 4rem;
+    font-weight: 600; 
+    padding-left: 5%;
+}
+
+h4{
     font-size: 2rem;
     color: #000000;
 }
@@ -152,3 +157,51 @@ p{
 /*========================================================================*/
 
 
+/*===== experience Section=====*/
+
+.experience-section{
+    background-image: url(../image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-content{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 3%;
+    padding-right: 1%;
+    vertical-align: middle;
+    box-shadow: 1rem 1rem 4rem #A9A9A9;
+    border-radius: 0.5rem;
+    height: 80%;
+    background-color: #F5FFFA;
+}
+
+.orange-highlight{
+    color: #FF9E33;
+}
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #ecec23, #cd7f32);
+    border-image-slice: 1;
+}
+
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #0000FF, #00FFFF);
+    border-image-slice: 1;
+}
+
+
+/*========================================================================*/
+
+
+/*===== footer Section=====*/
+
+footer p{
+    text-align: center;
+    color: #7e7e7e;
+    font-size: 1.2rem;
+}
