@@ -1,4 +1,58 @@
+/*===== Basic Style =====*/
+
 html{
     font-family: 'Titillium Web', sans-serif;
     font-size: 10px;
+}
+
+/*===== Hero Section Content =====*/
+
+.content{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+h1{
+    font-size: 5rem;
+    font-weight: 600;   
+}
+
+.highlight{
+    color: #6a54a3;
+}
+
+h3{
+    font-size: 2rem;
+    color: #000000;
+}
+
+p{
+    font-size: 1.8rem;
+    color: #696969;
+}
+
+button{
+    color: #ffffff;
+    background-image: linear-gradient(90deg, #753bd9, #5b5fde);
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0.8rem 2rem 0.8rem 2rem;
+    border-style: none;
+    border-radius: 0.5rem;
+}
+
+/*===== Hero Section Image =====*/
+
+.hero-image{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-top: 3%;
+}
+
+.hero-image img{
+    width: 100%;
 }
