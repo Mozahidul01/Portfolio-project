@@ -13,35 +13,24 @@ body{
 }
 
 section{
-    height: 80vh;
+    height: 450px;
+    padding-bottom: 120px;
 }
 
-/*===== Hero Section=====*/
-
-.top-section{
-    background-image: url(../image/top-banner.png);
-    background-repeat: no-repeat;
-}
-
-
-/*===== Hero Section Content =====*/
-
-.content{
-    width: 40%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 2%;
-}
+/*===== Common Style =====*/
 
 h1{
     font-size: 5rem;
     font-weight: 600;   
+    line-height: 6rem;
+}
+
+h2{
+    font-size: 4rem;
+    font-weight: 600;   
     line-height: 5.5rem;
 }
 
-.highlight{
-    color: #6a54a3;
-}
 
 h3{
     font-size: 2rem;
@@ -51,9 +40,35 @@ h3{
 p{
     font-size: 1.8rem;
     color: #696969;
+    padding-bottom: 30px;
 }
 
-.button{
+
+/*========================================================================*/
+
+
+/*===== Hero Section=====*/
+
+.top-section{
+    background-image: url(../image/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+/*===== Hero Section Content =====*/
+
+.hero-content{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    vertical-align: middle;
+}
+
+.highlight{
+    color: #6a54a3;
+}
+
+.hero-button{
     color: #ffffff;
     background-image: linear-gradient(90deg, #753bd9, #5b5fde);
     font-size: 1.8rem;
@@ -65,7 +80,7 @@ p{
     text-decoration: none;
 }
 
-.button:hover{
+.hero-button:hover{
     background-image: linear-gradient(45deg, #db467b, #ff1d76); 
 }
 
@@ -81,3 +96,59 @@ p{
 .hero-image img{
     width: 100%;
 }
+
+
+/*========================================================================*/
+
+
+/*===== Dream Section=====*/
+
+.dream-section{
+    background-image: url(../image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+/*===== Dream Section Image =====*/
+
+.dream-image{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-top: 3%;
+}
+
+.dream-image img{
+    width: 100%;
+}
+
+/*===== Dream Section Content =====*/
+
+.dream-content{
+    width: 40%;
+    float: left;
+    padding-left: 6%;
+    padding-top: 3.5%;
+    vertical-align: middle;
+}
+
+.dream-button{
+    color: #ffffff;
+    background-image: linear-gradient(90deg, #753bd9, #5b5fde);
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0.8rem 2.6rem 0.8rem 2.6rem;
+    border-style: none;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+
+.dream-button:hover{
+    background-image: linear-gradient(45deg, #db467b, #ff1d76); 
+}
+
+
+/*========================================================================*/
+
+
