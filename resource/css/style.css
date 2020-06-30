@@ -3,7 +3,26 @@
 html{
     font-family: 'Titillium Web', sans-serif;
     font-size: 10px;
+    padding: 0;
+    margin: 0;
 }
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    height: 80vh;
+}
+
+/*===== Hero Section=====*/
+
+.top-section{
+    background-image: url(../image/top-banner.png);
+    background-repeat: no-repeat;
+}
+
 
 /*===== Hero Section Content =====*/
 
@@ -17,6 +36,7 @@ html{
 h1{
     font-size: 5rem;
     font-weight: 600;   
+    line-height: 5.5rem;
 }
 
 .highlight{
@@ -33,15 +53,20 @@ p{
     color: #696969;
 }
 
-button{
+.button{
     color: #ffffff;
     background-image: linear-gradient(90deg, #753bd9, #5b5fde);
     font-size: 1.8rem;
     font-weight: 500;
     text-transform: uppercase;
-    padding: 0.8rem 2rem 0.8rem 2rem;
+    padding: 0.8rem 2.6rem 0.8rem 2.6rem;
     border-style: none;
     border-radius: 0.5rem;
+    text-decoration: none;
+}
+
+.button:hover{
+    background-image: linear-gradient(45deg, #db467b, #ff1d76); 
 }
 
 /*===== Hero Section Image =====*/
